@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  RMCharacterViewController.swift
 //  RickAndMorty
 //
 //  Created by Murat Gules on 17.12.2023.
@@ -7,13 +7,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class RMCharacterViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        title = "Characters"
     }
 
 
 }
-
